@@ -311,9 +311,9 @@ function updateRingInfo(activeCard) {
   const palette = (activeCard.dataset.palette || '').split(',').filter(Boolean);
 
   if (ringInfo) {
-    ringInfo.style.setProperty('--ring-accent-1', palette[0] || '#dfeef1');
-    ringInfo.style.setProperty('--ring-accent-2', palette[1] || '#c7dfe7');
-    ringInfo.style.setProperty('--ring-accent-3', palette[2] || '#e9c7d8');
+    ringInfo.style.setProperty('--ring-accent-1', palette[0] || '#f0f0f0');
+    ringInfo.style.setProperty('--ring-accent-2', palette[1] || '#d5d5d5');
+    ringInfo.style.setProperty('--ring-accent-3', palette[2] || '#bbbbbb');
   }
 }
 

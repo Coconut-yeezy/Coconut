@@ -392,7 +392,7 @@ img {
   justify-content: center;
   min-height: 60px;
   border-radius: 18px;
-  background: linear-gradient(135deg, rgba(159, 224, 210, 0.26), rgba(244, 180, 210, 0.18));
+  background: linear-gradient(135deg, rgba(255,255,255,0.44), rgba(210,210,210,0.2));
   font-weight: 700;
   color: var(--accent-dark);
 }
@@ -468,8 +468,8 @@ img {
 
 .ring-stage::before {
   inset: 14% 20% 18% 20%;
-  border: 1px solid rgba(122, 168, 160, 0.22);
-  box-shadow: 0 0 30px rgba(122, 168, 160, 0.12);
+  border: 1px solid rgba(17, 17, 17, 0.12);
+  box-shadow: 0 0 30px rgba(17, 17, 17, 0.08);
   animation: ringPulse 9s ease-in-out infinite alternate;
 }
 
@@ -515,7 +515,7 @@ img {
 
 .ring-card.is-active {
   box-shadow: 0 22px 44px rgba(17, 17, 17, 0.18);
-  border-color: rgba(122, 168, 160, 0.32);
+  border-color: rgba(17, 17, 17, 0.18);
 }
 
 .ring-card.is-active .work-visual::before,
@@ -673,7 +673,7 @@ img {
   width: 48px;
   height: 48px;
   border-radius: 16px;
-  background: linear-gradient(135deg, rgba(159, 224, 210, 0.26), rgba(244, 180, 210, 0.22));
+  background: linear-gradient(135deg, rgba(255,255,255,0.54), rgba(200,200,200,0.26));
   font-size: 1.1rem;
   font-weight: 800;
   color: var(--accent-dark);
@@ -712,15 +712,15 @@ img {
 }
 
 .project-card-1 {
-  background: linear-gradient(160deg, rgba(255,255,255,0.8), rgba(230, 240, 235, 0.85));
+  background: linear-gradient(160deg, rgba(255,255,255,0.8), rgba(232,232,232,0.85));
 }
 
 .project-card-2 {
-  background: linear-gradient(160deg, rgba(255,255,255,0.8), rgba(244, 236, 228, 0.8));
+  background: linear-gradient(160deg, rgba(255,255,255,0.8), rgba(221,221,221,0.8));
 }
 
 .project-card-3 {
-  background: linear-gradient(160deg, rgba(255,255,255,0.8), rgba(240, 232, 247, 0.75));
+  background: linear-gradient(160deg, rgba(255,255,255,0.8), rgba(212,212,212,0.75));
 }
 
 .project-top {
@@ -741,12 +741,12 @@ img {
 }
 
 .project-type {
-  background: rgba(159, 224, 210, 0.18);
+  background: rgba(17, 17, 17, 0.06);
   color: var(--accent-dark);
 }
 
 .project-accent {
-  background: rgba(244, 180, 210, 0.18);
+  background: rgba(17, 17, 17, 0.06);
   color: var(--warm-deep);
 }
 
@@ -771,7 +771,7 @@ img {
   display: inline-flex;
   padding: 8px 12px;
   border-radius: 999px;
-  background: rgba(159, 224, 210, 0.18);
+  background: rgba(17, 17, 17, 0.06);
   color: var(--accent-dark);
   font-size: 0.78rem;
   font-weight: 700;
