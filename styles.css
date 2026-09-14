@@ -226,9 +226,9 @@ img {
   align-items: center;
   padding: 9px 14px;
   border-radius: 999px;
-  border: 1px solid rgba(61, 111, 83, 0.18);
-  background: rgba(223, 238, 228, 0.7);
-  color: var(--accent-dark);
+  border: 1px solid rgba(17, 17, 17, 0.12);
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--text);
   font-size: 0.82rem;
   font-weight: 600;
 }
@@ -243,7 +243,7 @@ img {
   width: min(100%, 440px);
   padding: 24px;
   border-radius: 32px;
-  background: linear-gradient(160deg, rgba(255,255,255,0.96), rgba(255,237,246,0.86));
+  background: linear-gradient(160deg, rgba(255,255,255,0.96), rgba(235,235,235,0.86));
   border: 1px solid rgba(255,255,255,0.75);
   box-shadow: var(--shadow);
 }
@@ -252,8 +252,8 @@ img {
   height: 240px;
   border-radius: 26px;
   background:
-    linear-gradient(160deg, rgba(105, 185, 170, 0.18), rgba(244, 180, 210, 0.22)),
-    linear-gradient(135deg, #eafcf8, #fce9f3 52%, #edf3ff);
+    linear-gradient(160deg, rgba(255, 255, 255, 0.2), rgba(170, 170, 170, 0.12)),
+    linear-gradient(135deg, #f4f4f4, #e4e4e4 52%, #d9d9d9);
   position: relative;
   overflow: hidden;
 }
@@ -606,9 +606,9 @@ img {
 }
 
 .ring-info {
-  --ring-accent-1: #dfeef1;
-  --ring-accent-2: #c7dfe7;
-  --ring-accent-3: #e9c7d8;
+  --ring-accent-1: #f0f0f0;
+  --ring-accent-2: #d5d5d5;
+  --ring-accent-3: #bbbbbb;
   position: relative;
   display: flex;
   flex-direction: column;
