@@ -1,13 +1,13 @@
 window.portfolioData = {
   profile: {
-    name: 'ICE WORKS',
+    name: 'MScATB硕士研究生',
     fullName: 'Coconut Yeezy',
-    label: 'Post-digital experiment / interface study',
+    label: 'MSc in Art Tech and Business',
     location: '香港 / 广东',
     email: 'ruierhong@ln.hk',
     linkedin: 'Coconut-yeezy',
     motto:
-      '以“冰的凝结、融化与流动”为视觉隐喻，构建一个关于图像、颗粒与生成艺术的实验性作品集。'
+      '香港岭南大学 MSc in Art Tech and Business。跨工程造价、艺术、科技与商业多领域，擅长文物艺术研究、UI/UX视觉设计、数字IP开发、项目管理。融合工程逻辑与艺术创意，探索艺术品数字化、文创商业化的创新方案。'
   },
   navigation: [
     { label: '作品', href: '#works' },
@@ -16,89 +16,81 @@ window.portfolioData = {
     { label: '联系', href: '#contact' }
   ],
   hero: {
-    eyebrow: 'post-digital minimalism × experimental editorial',
-    title: 'ICE WORKS',
-    subtitle: '凝结、融化、流动的数字图像实验',
+    eyebrow: 'Art Tech × UI/UX × 文创商业',
+    title: 'MScATB硕士研究生',
+    subtitle: '香港岭南大学 MSc in Art Tech and Business',
     intro:
-      'ICE WORKS 将后数字极简主义、编辑式排版与生成艺术结合在一个全屏作品轮播中。页面以近白背景、黑色无衬线字体和大面积留白建立秩序，再通过 WebGL 图像、ASCII 粒子、液态连接和玻璃折射打破秩序。',
-    primaryCta: { label: '进入作品', href: '#works' },
-    secondaryCta: { label: '查看方法', href: '#method' },
+      '香港岭南大学 MSc in Art Tech and Business。跨工程造价、艺术、科技与商业多领域，擅长文物艺术研究、UI/UX视觉设计、数字IP开发、项目管理。融合工程逻辑与艺术创意，探索艺术品数字化、文创商业化的创新方案。',
+    primaryCta: { label: '浏览作品集', href: '#works' },
+    secondaryCta: { label: '查看教育背景', href: '#archive' },
     stats: [
-      { value: '18', label: '作品卡片' },
-      { value: '6', label: '创作方向' },
-      { value: '3', label: '核心阶段' },
+      { value: '2025 - 2027', label: '在读硕士' },
+      { value: '3', label: '核心方向' },
+      { value: '3', label: '项目作品' },
       { value: '24/7', label: '可更新' }
     ],
     highlights: [
-      '后数字极简主义',
-      'ASCII 粒子 / 玻璃折射',
-      '液态连接与圆环轮播'
+      '文物艺术研究',
+      'UI/UX 视觉设计',
+      '数字IP开发',
+      '项目管理'
     ]
   },
   works: [
     {
-      name: 'Chromed Velocity',
-      type: 'Material Study',
-      year: '2026',
-      description:
-        '关于材料表面如何在光、冷感与运动中转化为一种新的雕塑语言。',
-      palette: ['#f4f4f4', '#d9d9d9', '#b8b8b8'],
-      tags: ['WebGL', '玻璃质感', '材料语言']
-    },
-    {
-      name: 'Glass Bloom',
-      type: 'Interactive Form',
+      name: '宋代建盏数字复原项目',
+      type: '文物数字化研究',
       year: '2025',
       description:
-        '通过折射、发光与粒子叠加，建立一个介于自然结晶与人造接口之间的视觉形态。',
-      palette: ['#f1f1f1', '#cfcfcf', '#a9a9a9'],
-      tags: ['折射', '粒子', '生成艺术']
+        '宋代建盏与茶文化研究，AI视觉复原，课程论文与展示项目。',
+      palette: ['#f1f1f1', '#d0d0d0', '#7a7a7a'],
+      tags: ['文物数字化', 'AI视觉复原', '茶文化研究']
     },
     {
-      name: 'Frozen Archive',
-      type: 'Editorial System',
-      year: '2026',
-      description:
-        '编辑式信息系统与内容索引并行，强调完整作品档案与流动信息的有机组织。',
-      palette: ['#f7f7f7', '#d7d7d7', '#b0b0b0'],
-      tags: ['排版', '索引', '信息设计']
-    },
-    {
-      name: 'Liquid Signal',
-      type: 'Motion Research',
-      year: '2025',
-      description:
-        '将液态连接、惯性旋转与延迟反馈打造成一组有机动效的视觉信号。',
-      palette: ['#efefef', '#d0d0d0', '#9a9a9a'],
-      tags: ['动效', '信号', '流体']
-    },
-    {
-      name: 'Quiet Surface',
-      type: 'Spatial Study',
+      name: 'duanduan 饮品APP UI设计',
+      type: 'APP UI / 品牌视觉',
       year: '2024',
       description:
-        '以极简的黑白对比和留白处理，刻画空间与时间之间的缓慢变化。',
-      palette: ['#f5f5f5', '#d5d5d5', '#8d8d8d'],
-      tags: ['极简', '留白', '空间']
+        '完整APP界面设计，品牌视觉体系，Figma交互原型。',
+      palette: ['#f2f2f2', '#d1d1d1', '#6d6d6d'],
+      tags: ['Figma', '品牌设计', '交互原型']
+    },
+    {
+      name: '猫咪IP 椰子Yeezy 品牌开发',
+      type: 'IP & 商业方案',
+      year: '2024',
+      description:
+        '宠物IP形象、周边产品、品牌包装与商业方案规划。',
+      palette: ['#f3f3f3', '#cfcfcf', '#7f7f7f'],
+      tags: ['IP开发', '周边设计', '商业方案']
+    },
+    {
+      name: '工程造价与项目管理实践',
+      type: '工程咨询实习',
+      year: '2023',
+      description:
+        '参与工程算量、图纸建模、造价文件整理工作。',
+      palette: ['#efefef', '#c7c7c7', '#5f5f5f'],
+      tags: ['造价咨询', 'CAD制图', '项目管理']
     }
   ],
   methods: [
     {
-      title: '粒子凝成图像',
+      title: '艺术 & 文物研究',
       text:
-        '开场时，图像以一片四向镜像、棱形对称的 ASCII 粒子云出现，随后在中心区域逐步凝结成完整画面。',
+        '艺术品鉴赏、文物数字化复原、艺术史文献研究，关注艺术与文化价值的再表达与传播。',
       accent: '01'
     },
     {
-      title: '黏性圆环轮播',
+      title: '设计 & UI/UX',
       text:
-        '18 张作品沿圆环排序，滚轮与拖拽会带来惯性旋转，停止后自动吸附到最近卡位，形成有机的作品串联。',
+        'Figma、PS / AI、网页原型、品牌IP视觉，擅长把概念转化为清晰、可用的界面与视觉系统。',
       accent: '02'
     },
     {
-      title: '悬停粒子阴影',
+      title: '商业 & 工程',
       text:
-        '当前卡片悬停时会伴随松散、不规则的 ASCII 粒子阴影，形成一种由“表层”向“深层”生成的视觉反馈。',
+        '项目管理、CAD / 广联达、活动策划，兼顾工程逻辑与创意落地的协同推进。',
       accent: '03'
     }
   ],
@@ -106,37 +98,43 @@ window.portfolioData = {
     {
       step: '01',
       title: '研究与梳理',
-      text: '分析场景、目标受众与核心信息，建立明确的视觉与内容叙事框架。'
+      text: '结合文物研究、工程逻辑与品牌方向，建立清晰的项目目标、信息结构与叙事框架。'
     },
     {
       step: '02',
       title: '设计与原型',
-      text: '从结构、视觉到交互逐步打磨，保证作品既有美感，也具备清晰的信息层级。'
+      text: '使用 Figma、PS / AI 等工具搭建交互原型与视觉系统，确保内容、结构与视觉层级一致。'
     },
     {
       step: '03',
-      title: '落地与迭代',
-      text: '根据反馈持续优化，并将成果转化为可展示、可传播、可复用的数字资产。'
+      title: '落地与传播',
+      text: '将设计方案转化为可展示、可传播、可持续迭代的作品资产，并持续优化表达效果。'
     }
   ],
   archive: [
     {
-      period: '2024 - 2026',
-      title: 'ICE WORKS 视觉档案',
-      detail: '围绕图像、材料、动效与编辑式信息展开的一系列实验性作品整理。',
-      tags: ['图像实验', '生成艺术', '交互研究']
+      period: '2025 - 2027',
+      title: '香港岭南大学 | 艺术科技与商业理学硕士',
+      detail: '文物及艺术品鉴赏与收藏方向；研究主题：宋代建盏与茶文化数字化复原。',
+      tags: ['艺术科技', '文物数字化', '茶文化研究']
     },
     {
-      period: '2025',
-      title: '艺术科技与商业方向研究',
-      detail: '将创意研究、品牌表达、界面交互与文创商业策略融合，构建更成熟的作品集系统。',
-      tags: ['品牌系统', 'IP 方向', '可持续更新']
+      period: '本科阶段',
+      title: '广东白云学院 | 工程造价 管理学学士',
+      detail: '工程经济、项目管理方向；掌握 CAD制图、广联达建模与数字装配式建筑应用。',
+      tags: ['工程造价', '项目管理', '数字装配式建筑']
+    },
+    {
+      period: '实践经历',
+      title: '华联世纪工程咨询股份有限公司 / 吉他协会',
+      detail: '实习参与工程算量、图纸建模与造价文件整理；校园实践负责活动策划、宣传物料设计与现场执行。',
+      tags: ['实习', '活动策划', '视觉宣传']
     }
   ],
   contact: {
     title: '联系我',
     intro:
-      '欢迎交流艺术科技、文物数字化、UI/UX、生成艺术与文创商业相关方向。',
+      '欢迎交流艺术科技、文物数字化、UI/UX、文创商业相关方向。',
     email: 'ruierhong@ln.hk',
     linkedin: 'Coconut-yeezy',
     formTitle: '留下你的消息',
