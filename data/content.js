@@ -1,13 +1,13 @@
 window.portfolioData = {
   profile: {
     name: 'MScATB硕士研究生',
-    fullName: 'Coconut Yeezy',
-    label: 'MSc in Art Tech and Business',
+    fullName: '洪瑞儿',
+    label: 'MSc in',
     location: '香港 / 广东',
     email: 'ruierhong@ln.hk',
     linkedin: 'Coconut-yeezy',
     motto:
-      '香港岭南大学 MSc in Art Tech and Business。跨工程造价、艺术、科技与商业多领域，擅长文物艺术研究、UI/UX视觉设计、数字IP开发、项目管理。融合工程逻辑与艺术创意，探索艺术品数字化、文创商业化的创新方案。'
+      '香港岭南大学MSc in Arts Technology and Business。跨工程造价、艺术、科技与商业多领域，擅长文物艺术研究、UI/UX视觉设计、数字IP开发、项目管理。融合工程逻辑与艺术创意，探索艺术品数字化、文创商业化的创新方案。'
   },
   navigation: [
     { label: '作品', href: '#works' },
@@ -18,13 +18,13 @@ window.portfolioData = {
   hero: {
     eyebrow: 'Art Tech × UI/UX × 文创商业',
     title: 'MScATB硕士研究生',
-    subtitle: '香港岭南大学 MSc in Art Tech and Business',
+    subtitle: '香港岭南大学MSc in Arts Technology and Business',
     intro:
-      '香港岭南大学 MSc in Art Tech and Business。跨工程造价、艺术、科技与商业多领域，擅长文物艺术研究、UI/UX视觉设计、数字IP开发、项目管理。融合工程逻辑与艺术创意，探索艺术品数字化、文创商业化的创新方案。',
+      '香港岭南大学MSc in Arts Technology and Business。跨工程造价、艺术、科技与商业多领域，擅长文物艺术研究、UI/UX视觉设计、数字IP开发、项目管理。融合工程逻辑与艺术创意，探索艺术品数字化、文创商业化的创新方案。',
     primaryCta: { label: '浏览作品集', href: '#works' },
     secondaryCta: { label: '查看教育背景', href: '#archive' },
     stats: [
-      { value: '2025 - 2027', label: '在读硕士' },
+      { value: '2026-2027', label: '在读硕士' },
       { value: '3', label: '核心方向' },
       { value: '3', label: '项目作品' },
       { value: '24/7', label: '可更新' }
@@ -47,7 +47,7 @@ window.portfolioData = {
       tags: ['文物数字化', 'AI视觉复原', '茶文化研究']
     },
     {
-      name: 'duanduan 饮品APP UI设计',
+      name: 'Vibe Drink 饮品APP',
       type: 'APP UI / 品牌视觉',
       year: '2024',
       description:
@@ -56,11 +56,11 @@ window.portfolioData = {
       tags: ['Figma', '品牌设计', '交互原型']
     },
     {
-      name: '猫咪IP 椰子Yeezy 品牌开发',
+      name: '矮脚猫IP的作品集',
       type: 'IP & 商业方案',
       year: '2024',
       description:
-        '宠物IP形象、周边产品、品牌包装与商业方案规划。',
+        '专为矮脚猫健康设计产品、宠物IP形象、品牌包装与商业方案',
       palette: ['#f3f3f3', '#cfcfcf', '#7f7f7f'],
       tags: ['IP开发', '周边设计', '商业方案']
     },

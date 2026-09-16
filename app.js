@@ -49,7 +49,6 @@ function renderHero() {
             <ul>
               <li>${portfolioData.profile.location}</li>
               <li>${portfolioData.profile.email}</li>
-              <li>${portfolioData.profile.linkedin}</li>
             </ul>
           </div>
         </div>
@@ -78,6 +77,9 @@ function renderStats() {
 }
 
 function renderWorks() {
+  const featuredWork =
+    portfolioData.works.find((work) => work.name.includes('矮脚猫IP')) || portfolioData.works[0];
+
   return `
     <section id="works" class="section-shell">
       <div class="section-heading align-between">
@@ -134,11 +136,11 @@ function renderWorks() {
 
         <aside class="ring-info">
           <p class="eyebrow">Current</p>
-          <h3 id="ringInfoTitle">${portfolioData.works[0].name}</h3>
-          <p id="ringInfoType" class="ring-type">${portfolioData.works[0].type}</p>
-          <p id="ringInfoDesc" class="ring-description">${portfolioData.works[0].description}</p>
+          <h3 id="ringInfoTitle">${featuredWork.name}</h3>
+          <p id="ringInfoType" class="ring-type">${featuredWork.type}</p>
+          <p id="ringInfoDesc" class="ring-description">${featuredWork.description}</p>
           <div id="ringInfoTags" class="tag-list">
-            ${portfolioData.works[0].tags
+            ${featuredWork.tags
               .map(
                 (tag) => `
                   <span>${tag}</span>
