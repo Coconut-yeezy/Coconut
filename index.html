@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="洪瑞儿 的动态简历作品集网站，聚焦艺术科技、UI/UX、文创商业与项目管理。"
+      content="AVIS's dynamic portfolio focused on art technology, UI/UX, cultural business, and project management."
     />
-    <title>洪瑞儿 | Portfolio</title>
+    <title>AVIS | Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,35 +17,81 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="page-shell">
+    <section class="intro-screen" id="introScreen" aria-label="3D portfolio introduction">
+      <iframe
+        id="introCanvas"
+        class="intro-iframe"
+        src="https://blacklead-studio.webflow.io/three-js-conf"
+        title="Three.js Conf interactive introduction"
+        loading="eager"
+        allow="fullscreen"
+      ></iframe>
+      <canvas id="introCanvasFallback" class="intro-fallback-canvas" aria-hidden="true"></canvas>
+      <div class="intro-scanlines" aria-hidden="true"></div>
+
+      <div class="intro-topline">
+        <a class="intro-logo" href="#introScreen" aria-label="Back to intro">C</a>
+        <span>HONG RUIER / 2026—2027</span>
+        <button class="intro-share" id="introShare" type="button">Share</button>
+      </div>
+
+      <div class="intro-copy">
+        <p class="intro-kicker">Meet the work</p>
+        <h1>Hello!<br /><em>I’m AVIS</em></h1>
+        <p>Enter a name and let 3D character particles build an exploratory art-tech entrance.</p>
+      </div>
+
+      <div class="intro-tools" id="introTools">
+        <label class="intro-name-field">
+          <span>Name to build</span>
+          <input id="introName" type="text" value="AVIS" maxlength="16" autocomplete="off" />
+        </label>
+        <button class="intro-tool-button" id="introSparkle" type="button">Sparkle</button>
+        <button class="intro-tool-button" id="introSettings" type="button" aria-expanded="false">Settings</button>
+        <div class="intro-settings" id="introSettingsPanel" hidden>
+          <label>Letters and lattice <input id="introLetterColor" type="color" value="#000000" /></label>
+          <label>Background <input id="introBgColor" type="color" value="#9795ed" /></label>
+          <label>Deep field <input id="introDeepColor" type="color" value="#644da7" /></label>
+        </div>
+      </div>
+
+      <button class="intro-enter" id="introEnter" type="button">Enter portfolio <span>↗</span></button>
+      <div class="intro-status" id="introStatus">DRAG TO ROTATE · CLICK TO SPARK</div>
+    </section>
+
+    <div class="page-shell" id="portfolioShell" hidden>
       <header class="topbar">
         <div class="brand-group">
           <div class="brand-mark">C</div>
           <div>
-            <p class="brand-name">洪瑞儿</p>
+            <p class="brand-name">AVIS</p>
             <p class="brand-subtitle">Art Tech & Business</p>
           </div>
         </div>
 
-        <nav class="main-nav" aria-label="主导航"></nav>
+        <nav class="main-nav" aria-label="Main navigation"></nav>
 
-        <a class="primary-btn" href="#contact">联系我</a>
+        <div class="topbar-actions">
+          <button class="secondary-btn intro-return" id="introReturn" type="button">Back to intro</button>
+          <a class="primary-btn" href="#contact">Contact</a>
+        </div>
       </header>
 
       <main id="app"></main>
 
       <footer class="site-footer">
         <div class="footer-inner">
-          <p>© 2026 | MSc in Arts Technology and Business | Personal Resume</p>
+          <p>© 2026 | MSc in Arts Technology and Business | Personal Portfolio</p>
           <div class="footer-links">
-            <a href="#hero">首页</a>
-            <a href="#projects">作品</a>
-            <a href="#contact">联系</a>
+            <a href="#hero">Home</a>
+            <a href="#projects">Work</a>
+            <a href="#contact">Contact</a>
           </div>
         </div>
       </footer>
     </div>
 
+    <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
     <script src="data/content.js"></script>
     <script src="app.js"></script>
   </body>
