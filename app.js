@@ -506,7 +506,7 @@ function initIntroExperience() {
   const scene = new THREE.Scene();
   const camera = new THREE.PerspectiveCamera(32, 1, 0.1, 100);
   const group = new THREE.Group();
-  const particleCount = 3600;
+  const particleCount = 7200;
   const positions = new Float32Array(particleCount * 3);
   const targetPositions = new Float32Array(particleCount * 3);
   const basePositions = new Float32Array(particleCount * 3);
@@ -552,8 +552,8 @@ function initIntroExperience() {
     context.fillText(text || 'AVIS', textCanvas.width / 2, textCanvas.height / 2);
     const pixels = context.getImageData(0, 0, textCanvas.width, textCanvas.height).data;
     const samples = [];
-    for (let y = 0; y < textCanvas.height; y += 4) {
-      for (let x = 0; x < textCanvas.width; x += 4) {
+    for (let y = 0; y < textCanvas.height; y += 3) {
+      for (let x = 0; x < textCanvas.width; x += 3) {
         if (pixels[(y * textCanvas.width + x) * 4 + 3] > 100) samples.push({ x, y });
       }
     }
