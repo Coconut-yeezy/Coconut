@@ -489,6 +489,7 @@ function observeReveal() {
 
 function initIntroExperience() {
   const intro = document.getElementById('introScreen');
+  const embeddedExperience = document.getElementById('introCanvas');
   const canvas = document.getElementById('introCanvasFallback');
   const portfolio = document.getElementById('portfolioShell');
   const nameInput = document.getElementById('introName');
@@ -500,7 +501,22 @@ function initIntroExperience() {
   const status = document.getElementById('introStatus');
   const returnButton = document.getElementById('introReturn');
 
-  if (!intro || !canvas || !portfolio || !window.THREE) return;
+  if (!intro || !portfolio) return;
+
+  if (embeddedExperience?.tagName === 'IFRAME') {
+    intro.classList.add('intro-embedded');
+    enterButton.addEventListener('click', () => {
+      intro.classList.add('is-exiting');
+      window.setTimeout(() => {
+        intro.hidden = true;
+        portfolio.hidden = false;
+        window.scrollTo(0, 0);
+      }, 650);
+    });
+    return;
+  }
+
+  if (!canvas || !window.THREE) return;
 
   const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
   const scene = new THREE.Scene();
