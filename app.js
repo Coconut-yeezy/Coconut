@@ -513,6 +513,14 @@ function initIntroExperience() {
         window.scrollTo(0, 0);
       }, 650);
     });
+    if (returnButton) {
+      returnButton.addEventListener('click', () => {
+        portfolio.hidden = true;
+        intro.hidden = false;
+        intro.classList.remove('is-exiting');
+        window.scrollTo(0, 0);
+      });
+    }
     return;
   }
 
